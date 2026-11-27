@@ -13,5 +13,5 @@ public partial class Sanpham
 
     public int Madm { get; set; }
 
-    public virtual Danhmuc MadmNavigation { get; set; } = null!;
+    public virtual Danhmuc? MadmNavigation { get; set; }
 }
